@@ -1,0 +1,23 @@
+{
+  "name": "weplumb",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "dependencies": {
+    "marked": "^15.0.8",
+    "simple-git": "^3.0.0"
+  },
+  "devDependencies": {
+    "@types/marked": "^5.0.2",
+    "esbuild": "^0.25.2",
+    "obsidian": "^1.8.7",
+    "typescript": "^5.8.3"
+  }
+}
