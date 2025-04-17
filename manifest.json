@@ -5,7 +5,7 @@
   "minAppVersion": "0.15.0",
   "description": "Publish your Obsidian notes as a website using Markdown files.",
   "author": "Your Name",
-  "authorUrl": "https://github.com/your-username",
+  "authorUrl": "https://github.com/votlazam/obsidian-weplumb.git",
   "isDesktopOnly": false,
   "license": "MIT"
 }

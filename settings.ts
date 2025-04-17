@@ -24,10 +24,10 @@ export class WeplumbSettingTab extends PluginSettingTab {
 
     new Setting(this.containerEl)
       .setName("GitHub Repository")
-      .setDesc("Format: https://github.com/username/repository.git")
+      .setDesc("Format: https://github.com/votlazam/obsidian-weplumb.git")
       .addText((text) => {
         text
-          .setPlaceholder("https://github.com/your-username/your-repo.git") // Placeholder per l'input
+          .setPlaceholder("https://github.com/votlazam/obsidian-weplumb.git") // Placeholder per l'input
           .setValue(this.plugin.settings.githubRepo) // Valore attuale delle impostazioni
           .onChange(async (value: string) => {
             // Aggiorna le impostazioni quando il valore cambia
